@@ -1,5 +1,4 @@
-<button onclick="growMonsters()"></button>
-function growPopulation(){
+function growMonsters(){
   const E=2.71;
   let initialPopu = parseFloat(prompt("Enter the initial population:"));
   let growthRate = parseFloat(prompt("Enter the rate of growth:"));
