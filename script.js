@@ -3,5 +3,5 @@ function growMonsters(){
   let initialPopu = parseFloat(prompt("Enter the initial population:"));
   let growthRate = parseFloat(prompt("Enter the rate of growth:"));
   let time = parseFloat(prompt("Enter the time (in hours):"));
-  let finalPopu = Math.round(
+  let finalPopu = Math.round(Math.pow((initialPopu * E),(growthRate * time)))
 }
