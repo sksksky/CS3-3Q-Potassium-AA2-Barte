@@ -6,5 +6,10 @@ function growMonsters(){
 
   let monsterRegion = prompt("Enter the monster's region:");
   let monsterName = prompt("Enter the monster's name:");
-  let nameAndLoc = monsterRegion.concat(' ', monsterName);
+  
+  let monsterDetails = ( monsterRegion + " " + monsterName).toUppercase;
+  
+  document.getElementById("result").innerHTML = "After" + time + "hours, the population of " + monsterDetails + " has risen to " + finalPopu;
+
+  
 }
